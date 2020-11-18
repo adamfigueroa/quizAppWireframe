@@ -13,9 +13,73 @@
 
 <body>
   <header>
-    <h1>Harry Potter Quiz</h1>
+    <h1>Adam's Quiz Emporium</h1>
   </header>
   <main>
+    <div class="mainPage">
+      <h2 class="quizTitle">Harry Potter Quiz</h2>
+      <p class="introPage">Hey there! Welcome to my Harry Potter quiz! Are you a real fan? Well it's time to find out!</p>
+      <button class="submitBtn">Start Quiz!</button>
+    </div>
+    <br>
+    <div class="questionPage">
+      <h2 class="question">Placeholder Question?</h2>
+      <form class="questionForm">
+        <input type="radio" name="answer" id="answer1" class="answers" value="test1" required>
+        <label for="answer">Test Answer 1</label>
+      </form>
+      <br>
+      <form class="questionForm">
+        <input type="radio" name="answer" id="answer2" class="answers" value="test1" required>
+        <label for="answer">Test Answer 2</label>
+      </form>
+      <br>
+      <form class="questionForm">
+        <input type="radio" name="answer" id="answer1" class="answers" value="test1" required>
+        <label for="answer">Test Answer 3</label>
+      </form>
+      <br>
+      <form class="questionForm">
+        <input type="radio" name="answer" id="answer1" class="answers" value="test1" required>
+        <label for="answer">Test Answer 4</label>
+      </form>
+      <br>
+      <p class="answerCounter">0/6 Correct</p>
+      <button class="submitQBtn">Submit</button>
+      <br>
+      <button class="nextBtn">Next</button>
+    </div>
+    <br>
+    <div class="correctAnswer">
+      <h2 class="placeholder">Yay! you were correct!</h2>
+      <br>
+      <p>Placeholder harry and ron gif here</p>
+      <br>
+      <p class="answerCounter">1/6 Correct</p>
+      <br>
+      <button class="nextBtn">Next</button>
+    </div>
+    <br>
+    <div class="wrongAnswer">
+      <h2 class="placeholder">Oh no! That is the wrong answer!</h2>
+      <br>
+      <p>Placeholder harry rubber arm gif here</p>
+      <br>
+      <p class="answerCounter">0/6 Correct</p>
+      <br>
+      <button class="nextBtn">Next</button>
+    </div>
+    <br>
+    <div class="finalPage">
+      <h2>You finished!
+        let's see your results:</h2>
+        <br>
+        <p class="answerCounter">6/6 Correct</p>
+        <br>
+        <p>Placeholder party hard gif here</p>
+        <br>
+        <button class="tryAgainBtn">Try Again?</button>
+    </div>
   </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="app.js"></script>
